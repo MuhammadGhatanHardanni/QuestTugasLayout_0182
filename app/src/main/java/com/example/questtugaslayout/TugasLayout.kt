@@ -171,6 +171,14 @@ fun MahasiswaCard(
                     modifier = Modifier.padding(top = 2.dp)
                 )
             }
+
+            Image(
+                painter = painterResource(id = rightImage),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(65.dp)
+                    .padding(4.dp)
+            )
         }
     }
 }
