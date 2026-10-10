@@ -46,5 +46,18 @@ fun TugasLayout2(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold
         )
         Spacer(modifier = Modifier.height(25.dp))
+
+        MahasiswaCard(
+            backgroundColor = R.color.card_gray,
+            leftImage = R.drawable.logoumy,
+            rightImage = R.drawable.logoumy,
+            nameText = R.string.nama_ghatan,
+            nimText = R.string.nim_ghatan,
+            addressText = R.string.alamat_ghatan,
+            nameColor = R.color.text_white,
+            nimColor = R.color.text_white,
+            addressColor = R.color.text_yellow,
+            isCursive = true
+        )
     }
 }
