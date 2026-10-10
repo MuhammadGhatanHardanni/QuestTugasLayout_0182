@@ -105,3 +105,27 @@ fun TugasLayout2(modifier: Modifier = Modifier) {
         )
     }
 }
+
+@Composable
+fun MahasiswaCard(
+    backgroundColor: Int,
+    leftImage: Int,
+    rightImage: Int,
+    nameText: Int,
+    nimText: Int,
+    addressText: Int,
+    nameColor: Int,
+    nimColor: Int,
+    addressColor: Int,
+    isCursive: Boolean = false
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 20.dp, vertical = 10.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(id = backgroundColor)
+        )
+    ) {
+    }
+}
