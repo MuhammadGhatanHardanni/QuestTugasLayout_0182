@@ -3,4 +3,8 @@
     <string name="prodi">Teknologi Informasi</string>
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
     <string name="copy">Copyright, 2026</string>
+
+    <string name="nama_ghatan">Muhammad Ghatan Hardannu</string>
+    <string name="nim_ghatan">2024140182</string>
+    <string name="alamat_ghatan">Manado, Sulawesi Utara</string>
 </resources>
