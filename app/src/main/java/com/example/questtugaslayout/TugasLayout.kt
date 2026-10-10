@@ -134,6 +134,13 @@ fun MahasiswaCard(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
+            Image(
+                painter = painterResource(id = leftImage),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(65.dp)
+                    .padding(4.dp)
+            )
         }
     }
 }
