@@ -141,6 +141,36 @@ fun MahasiswaCard(
                     .size(65.dp)
                     .padding(4.dp)
             )
+
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 16.dp),
+                horizontalAlignment = Alignment.Start
+            ) {
+                Text(
+                    text = stringResource(id = nameText),
+                    fontSize = 20.sp,
+                    fontWeight = if (isCursive) FontWeight.Normal else FontWeight.Bold,
+                    fontFamily = if (isCursive) FontFamily.Cursive else FontFamily.Default,
+                    color = colorResource(id = nameColor)
+                )
+
+                Text(
+                    text = stringResource(id = nimText),
+                    fontSize = 14.sp,
+                    color = colorResource(id = nimColor),
+                    modifier = Modifier.padding(top = 2.dp)
+                )
+
+                Text(
+                    text = stringResource(id = addressText),
+                    fontSize = 14.sp,
+                    fontFamily = if (isCursive) FontFamily.Cursive else FontFamily.Default,
+                    color = colorResource(id = addressColor),
+                    modifier = Modifier.padding(top = 2.dp)
+                )
+            }
         }
     }
 }
