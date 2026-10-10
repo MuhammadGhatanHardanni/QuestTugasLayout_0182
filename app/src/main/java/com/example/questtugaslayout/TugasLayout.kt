@@ -83,5 +83,17 @@ fun TugasLayout2(modifier: Modifier = Modifier) {
             nimColor = R.color.text_cyan,
             addressColor = R.color.text_white
         )
+
+        MahasiswaCard(
+            backgroundColor = R.color.card_green,
+            leftImage = R.drawable.logoumy,
+            rightImage = R.drawable.logoumy,
+            nameText = R.string.nama_jehan,
+            nimText = R.string.nim_jehan,
+            addressText = R.string.alamat_jehan,
+            nameColor = R.color.text_white,
+            nimColor = R.color.text_cyan,
+            addressColor = R.color.text_white
+        )
     }
 }
