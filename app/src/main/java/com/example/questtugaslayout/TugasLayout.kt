@@ -127,5 +127,13 @@ fun MahasiswaCard(
             containerColor = colorResource(id = backgroundColor)
         )
     ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+        }
     }
 }
