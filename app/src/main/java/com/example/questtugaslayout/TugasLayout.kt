@@ -59,5 +59,17 @@ fun TugasLayout2(modifier: Modifier = Modifier) {
             addressColor = R.color.text_yellow,
             isCursive = true
         )
+
+        MahasiswaCard(
+            backgroundColor = R.color.card_purple,
+            leftImage = R.drawable.logoumy,
+            rightImage = R.drawable.logoumy,
+            nameText = R.string.nama_arya,
+            nimText = R.string.nim_arya,
+            addressText = R.string.alamat_arya,
+            nameColor = R.color.text_white,
+            nimColor = R.color.text_cyan,
+            addressColor = R.color.text_yellow
+        )
     }
 }
