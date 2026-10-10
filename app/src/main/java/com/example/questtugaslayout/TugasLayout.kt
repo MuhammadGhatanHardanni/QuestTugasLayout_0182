@@ -95,5 +95,13 @@ fun TugasLayout2(modifier: Modifier = Modifier) {
             nimColor = R.color.text_cyan,
             addressColor = R.color.text_white
         )
+
+        Spacer(modifier = Modifier.weight(1f, fill = false))
+        Spacer(modifier = Modifier.height(40.dp))
+
+        Text(
+            text = stringResource(R.string.copy),
+            fontSize = 14.sp
+        )
     }
 }
