@@ -35,6 +35,16 @@ fun TugasLayout2(modifier: Modifier = Modifier) {
             .padding(top = 40.dp, bottom = 20.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-
+        Text(
+            text = stringResource(R.string.prodi),
+            fontSize = 28.sp,
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            text = stringResource(R.string.univ),
+            fontSize = 18.sp,
+            fontWeight = FontWeight.Bold
+        )
+        Spacer(modifier = Modifier.height(25.dp))
     }
 }
